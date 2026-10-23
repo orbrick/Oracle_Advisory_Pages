@@ -1,0 +1,63 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>EPM · Enterprise Performance Management · 26_10</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><style>
+:root{--bg:#f6f5f8;--card:#ffffff;--ink:#1f1d24;--muted:#5f5a6b;--line:#e6e3ec;--accent:#5B2A86;--link:#5B2A86;--rule:#f08519;--badge-bg:#fdf0e3;--badge-ink:#7a3f00;--button-bg:#5B2A86;--button-ink:#ffffff}
+@media (prefers-color-scheme: dark){:root{--bg:#14111a;--card:#1d1925;--ink:#ece9f1;--muted:#a59fb2;--line:#2f2a3a;--accent:#b590e0;--link:#c9aaf0;--rule:#f5a54f;--badge-bg:#3a2a14;--badge-ink:#f5c58d;--button-bg:#b590e0;--button-ink:#14111a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'PT Sans', 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.6}
+.topbar{height:4px;background:var(--rule)}
+.wrap{max-width:900px;margin:0 auto;padding:22px 16px 56px}
+nav{font-size:13px;color:var(--muted);margin-bottom:14px} nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--link);text-decoration:underline}
+.brand{display:inline-block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;text-decoration:none;margin-bottom:6px} a.brand:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px 28px;margin-bottom:16px}
+h1{font-size:26px;line-height:1.25;margin:4px 0 10px}
+h2{font-size:20px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--rule);margin-right:10px;vertical-align:1px}
+h3{font-size:18px;margin:0 0 6px;color:var(--accent)} h3 a{color:var(--accent);text-decoration:none}
+h4{font-size:13px;margin:20px 0 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+h5{font-size:16px;margin:16px 0 4px}
+a{color:var(--link)} li{margin:6px 0} em{color:var(--muted);font-style:normal;font-size:13px}
+code{font-family:Consolas, 'Courier New', monospace;font-size:.92em;background:var(--bg);padding:1px 5px;border-radius:4px}
+table{border-collapse:collapse} td,th{border:1px solid var(--line);padding:5px 9px;vertical-align:top}
+.meta{color:var(--muted);font-size:13px}
+.chips span{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:12px;padding:1px 10px;margin:8px 6px 0 0}
+.button{display:inline-block;background:var(--button-bg);color:var(--button-ink);text-decoration:none;font-weight:700;font-size:14px;padding:8px 16px;border-radius:6px}
+details summary{cursor:pointer}
+footer{color:var(--muted);font-size:12px;margin-top:32px;border-top:1px solid var(--line);padding-top:12px}
+</style></head><body><div class="topbar"></div><div class="wrap"><a class="brand" href="../../index.html">Oracle Update Advisory</a><nav><a href="../index.html">EPM</a> › Enterprise Performance Management</nav><div class="card"><h1>EPM · Enterprise Performance Management: Release digest</h1>
+<p><strong>Covers:</strong> Enterprise Performance Management 26.10<br />
+<strong>Oracle updated:</strong> 12 Oct 2026 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>The 26.10 release of Enterprise Performance Management brings a host of new features and enhancements across various modules, focusing on AI capabilities and improved user experiences. Key highlights include the Enhanced PCM Agent for performance analysis, the Consolidation Process Assistant for data integrations, and a redesigned Jobs console for better job management. Additionally, the release introduces new REST APIs and enhancements to existing functionalities, such as improved security for EPM Cloud connections. Clients should be aware of the deprecation of JDK 17 support in EPM Automate, which will require an upgrade to JDK 21 by January 2027, and other important actions to ensure compliance with upcoming changes.</p>
+<h2>What's New</h2>
+<ul>
+<li>The Enhanced PCM Agent now includes performance analysis capabilities, allowing users to analyze completed calculation jobs and receive optimization recommendations. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51468.htm">EPM Spotlight Features</a>)</li>
+<li>A new Consolidation Process Assistant enables users to execute data integrations and consolidations through natural language interactions, enhancing productivity. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51796.htm">EPM Assistants: Consolidation Process Assistant</a>)</li>
+<li>The Reporting Agent now assists in investigating data patterns by generating a ranked analysis grid that identifies contributors to a value. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51706.htm">Reporting Agent Causal Analysis</a>)</li>
+<li>EPM Cloud can now access Oracle Fusion Applications REST APIs using OAuth 2.0, enhancing security for server-to-server integrations. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51820.htm">Configure EPM Cloud to Access Oracle Fusion Applications REST APIs with OAuth 2.0</a>)</li>
+<li>A new 'Working with AI' chapter has been added to business process guides, detailing available AI features and usage documentation. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51680.htm">New "Working with AI" Chapter</a>)</li>
+<li>The Transactions tab now displays the total transaction amount alongside the number of transactions based on current search criteria, improving productivity during audits. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51640.htm">Display of Transaction Sum in the Transactions Tab of Transaction Matching</a>)</li>
+<li>The new Balance Loads card streamlines the balance load process, featuring tabs for Balance Loads, Mapping Exceptions, and Profile Creation Rules. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51645.htm">Manage Balance Loads Using the Balance Loads Card</a>)</li>
+<li>The Predict Predicted Attribute REST API now supports predicting multiple target attributes in a single request, improving performance for multi-attribute workflows. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51724.htm">Predict Multiple Attributes in a Single REST API Request</a>)</li>
+<li>A new REST API for retrieving translation diagnostic information has been introduced, enabling automated investigation of translation issues. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51723.htm">Diagnosis of Translation Issues Using a REST API</a>)</li>
+<li>The application Home page has been enhanced with Redwood styling, improving accessibility and navigation for users across various modules. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51642.htm">Enhanced Home Page and Global Header Experience</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51804.htm">Enhanced Home Page and Global Header Experience</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51803.htm">Enhanced Home Page and Global Header Experience</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>The Export to CSV option in Access Control now supports exporting all group types, including EPM, IDCS, and PREDEFINED groups. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51805.htm">Support of All Group Types in Exported Group Listing in Access Control</a>)</li>
+<li>The ownership copying process now allows users to copy only the changed ownership data from the last period of a year to the first period of the next year, improving efficiency. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51773.htm">Copy Ownership Now Allows Copying Only Changed Ownership Data</a>)</li>
+<li>The conditional Replace Text option now supports text functions, enabling dynamic text display based on specified conditions without altering the underlying grid data. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51708.htm">Text Functions in Conditional Replace Text</a>)</li>
+<li>Insertion points in the consolidation sequence now allow the use of attribute functions in on-demand rules, enabling more flexible calculation logic. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51772.htm">Insertion Point Rules Opend up to Allow Attribute Dimension Functions</a>)</li>
+</ul>
+<h2>Deprecations, Retirements and Replacements</h2>
+<ul>
+<li>Support for JDK 17 in EPM Automate on Linux/Unix will be deprecated in the January 2027 update, requiring an upgrade to JDK 21. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51807.htm">Java 21 support for EPM Automate on Linux/Unix</a>)</li>
+<li>The original PCM Agent and PCM Agent Performance Assistant will no longer be available starting in the November update (26.11). (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51618.htm">PCM Agent Calculation Performance Analysis Capabilities</a>)</li>
+<li>Generative AI features require Cloud EPM 26.08 or later by January 2027, and support for user names prefixed with the Cloud Account name will be removed in November 2026. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-t78764.htm">IMPORTANT Actions and Considerations</a>)</li>
+</ul>
+<h2>Action Required</h2>
+<ul>
+<li>Upgrade EPM Automate to version 26.09 or later and run the EPM Automate encrypt command to generate a new.epw file. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-t78764.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Review existing connection definitions for IP addresses and update queries for TM_AUDIT_TRAIL table as support for IP addresses in Connection URLs will be removed in a future update. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-t78764.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Service Administrators should configure automatic purging of balance load information after a specified number of days to maintain application performance. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51651.htm">Ability to Automatically Purge Balance Load Information</a>)</li>
+<li>Enable the new Consolidation Setting called 'Data Retrieval Diagnosis' for the new EPM Assistants to function properly. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51796.htm">EPM Assistants: Consolidation Process Assistant</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/epm-oct26/26oct-epm-wn-f51810.htm">EPM Assistants: Consolidation Journals Assistant</a>)</li>
+</ul></div></div></body></html>

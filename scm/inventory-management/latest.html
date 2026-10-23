@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>SCM · Inventory Management · 26D</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><style>
+:root{--bg:#f6f5f8;--card:#ffffff;--ink:#1f1d24;--muted:#5f5a6b;--line:#e6e3ec;--accent:#5B2A86;--link:#5B2A86;--rule:#f08519;--badge-bg:#fdf0e3;--badge-ink:#7a3f00;--button-bg:#5B2A86;--button-ink:#ffffff}
+@media (prefers-color-scheme: dark){:root{--bg:#14111a;--card:#1d1925;--ink:#ece9f1;--muted:#a59fb2;--line:#2f2a3a;--accent:#b590e0;--link:#c9aaf0;--rule:#f5a54f;--badge-bg:#3a2a14;--badge-ink:#f5c58d;--button-bg:#b590e0;--button-ink:#14111a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'PT Sans', 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.6}
+.topbar{height:4px;background:var(--rule)}
+.wrap{max-width:900px;margin:0 auto;padding:22px 16px 56px}
+nav{font-size:13px;color:var(--muted);margin-bottom:14px} nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--link);text-decoration:underline}
+.brand{display:inline-block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;text-decoration:none;margin-bottom:6px} a.brand:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px 28px;margin-bottom:16px}
+h1{font-size:26px;line-height:1.25;margin:4px 0 10px}
+h2{font-size:20px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--rule);margin-right:10px;vertical-align:1px}
+h3{font-size:18px;margin:0 0 6px;color:var(--accent)} h3 a{color:var(--accent);text-decoration:none}
+h4{font-size:13px;margin:20px 0 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+h5{font-size:16px;margin:16px 0 4px}
+a{color:var(--link)} li{margin:6px 0} em{color:var(--muted);font-style:normal;font-size:13px}
+code{font-family:Consolas, 'Courier New', monospace;font-size:.92em;background:var(--bg);padding:1px 5px;border-radius:4px}
+table{border-collapse:collapse} td,th{border:1px solid var(--line);padding:5px 9px;vertical-align:top}
+.meta{color:var(--muted);font-size:13px}
+.chips span{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:12px;padding:1px 10px;margin:8px 6px 0 0}
+.button{display:inline-block;background:var(--button-bg);color:var(--button-ink);text-decoration:none;font-weight:700;font-size:14px;padding:8px 16px;border-radius:6px}
+details summary{cursor:pointer}
+footer{color:var(--muted);font-size:12px;margin-top:32px;border-top:1px solid var(--line);padding-top:12px}
+</style></head><body><div class="topbar"></div><div class="wrap"><a class="brand" href="../../index.html">Oracle Update Advisory</a><nav><a href="../index.html">SCM</a> › Inventory Management</nav><div class="card"><h1>SCM · Inventory Management: Release digest</h1>
+<p><strong>Covers:</strong> Inventory Management 26D<br />
+<strong>Oracle updated:</strong> 2 Oct 2026 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>In the 26D release of Inventory Management, several new features and enhancements have been introduced to streamline operations and improve inventory management. Key highlights include the ability to enable intra-organizational material transfers for supply requests, enhanced mobile inventory functionalities, and AI-driven tools for task allocation and packing recommendations. Customers are encouraged to opt in to new features and perform necessary setup tasks to leverage these capabilities effectively. Additionally, the release emphasizes improved compliance through electronic records and signatures for various transactions, ensuring better audit trails and operational transparency.</p>
+<h2>What's New</h2>
+<ul>
+<li>Supply Chain Orchestration now enables intra-organizational material transfers for supply requests originating from Self Service Procurement, improving fulfillment flexibility and inventory utilization. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f50332.htm">Enable intra-organizational material transfers for transfer supply requests originating from Self Service Procurement</a>)</li>
+<li>Oracle Supply Chain Orchestration supports capturing inventory on hand striping attributes, such as grade, for manual transfer supply requests, enhancing fulfillment precision. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f50330.htm">Inventory on hand striping attributes for manual transfer supply requests in Supply Chain Orchestration</a>)</li>
+<li>The Inventory Task Allocation Assistant AI agent can automatically assign receipt delivery tasks to robotic material handling equipment, optimizing resource allocation. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f50263.htm">Inventory Task Allocation Assistant - Assign tasks to robotic material handling equipment</a>)</li>
+<li>The LPN Packing Advisor AI agent provides data-driven packing recommendations during put away transactions, improving operational efficiency. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f50264.htm">LPN packing advisor</a>)</li>
+<li>Users can now approve physical inventory adjustments in bulk using a spreadsheet, enhancing efficiency in inventory management processes. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f50256.htm">Approve physical inventory counts using a spreadsheet</a>)</li>
+<li>Dynamic locator creation allows users to generate valid storage locations on the fly during transactions, enhancing flexibility in warehouse operations. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f46476.htm">Use dynamic locator creation</a>)</li>
+<li>The Generate Changed Receipt Advice feature allows users to communicate purchase order quantity changes to integrated WMS or 3PL systems, improving receiving operations. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f50259.htm">Communicate additional purchase order changes to a WMS or 3PL using generate changed receipt advice</a>)</li>
+<li>AI-assisted recall notice creation from email attachments automates the processing of supplier recall letters, reducing manual intervention. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f50557.htm">AI-assisted recall notice creation from email attachments</a>)</li>
+<li>The default cost organization is now carried forward across various Cost Accounting pages, reducing the need for repeated selections. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f50836.htm">Default cost organization across Cost Accounting pages</a>)</li>
+<li>Users can now model their own SQL queries as custom business object queries against the Read-Optimized Data Store for faster data extraction. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f51077.htm">Support for user-defined queries in data extracts</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<p>None identified in this release.</p>
+<h2>Deprecations, Retirements and Replacements</h2>
+<p>None identified in this release.</p>
+<h2>Action Required</h2>
+<ul>
+<li>Customers must perform pre-update and post-update tasks as required by their Cloud applications before and after the quarterly update. Refer to Oracle Fusion Cloud SCM: Performing Your Quarterly Update for specific details on affected product areas. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-t78586.htm">Pre-Update and Post-Update Tasks</a>)</li>
+<li>Customers can opt in to new features delivered in this update, which may be enabled or disabled by default. Use the privileges ASM_REVIEW_APPLICATIONS_OFFERINGS_PRIV and ASM_CONFIGURE_OFFERING_PRIV to review and configure offerings. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-t78602.htm">Optional Uptake of New Features (Opt In)</a>)</li>
+<li>Enable Item Grade in applicable organizations using Inventory Attribute Configurations setup task to utilize inventory on hand striping attributes. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f50330.htm">Inventory on hand striping attributes for manual transfer supply requests in Supply Chain Orchestration</a>)</li>
+<li>Set the Min-Max Replenishment Reorder Approval profile option to Approval required / Incomplete / Preapproved to route purchase requisitions through the approval workflow. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f50331.htm">Route inventory min-max planning and PAR replenishment purchase requests through procurement approval workflow</a>)</li>
+<li>Enable electronic signature preferences and set up approval rules for Redwood UI transactions to leverage electronic records and signatures for material transactions. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/inv26d/26D-inventory-wn-f50246.htm">Enable electronic records and electronic signatures for material transactions</a>)</li>
+</ul></div></div></body></html>

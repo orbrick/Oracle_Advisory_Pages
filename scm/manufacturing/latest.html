@@ -1,0 +1,57 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>SCM · Manufacturing · 26D</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><style>
+:root{--bg:#f6f5f8;--card:#ffffff;--ink:#1f1d24;--muted:#5f5a6b;--line:#e6e3ec;--accent:#5B2A86;--link:#5B2A86;--rule:#f08519;--badge-bg:#fdf0e3;--badge-ink:#7a3f00;--button-bg:#5B2A86;--button-ink:#ffffff}
+@media (prefers-color-scheme: dark){:root{--bg:#14111a;--card:#1d1925;--ink:#ece9f1;--muted:#a59fb2;--line:#2f2a3a;--accent:#b590e0;--link:#c9aaf0;--rule:#f5a54f;--badge-bg:#3a2a14;--badge-ink:#f5c58d;--button-bg:#b590e0;--button-ink:#14111a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'PT Sans', 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.6}
+.topbar{height:4px;background:var(--rule)}
+.wrap{max-width:900px;margin:0 auto;padding:22px 16px 56px}
+nav{font-size:13px;color:var(--muted);margin-bottom:14px} nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--link);text-decoration:underline}
+.brand{display:inline-block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;text-decoration:none;margin-bottom:6px} a.brand:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px 28px;margin-bottom:16px}
+h1{font-size:26px;line-height:1.25;margin:4px 0 10px}
+h2{font-size:20px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--rule);margin-right:10px;vertical-align:1px}
+h3{font-size:18px;margin:0 0 6px;color:var(--accent)} h3 a{color:var(--accent);text-decoration:none}
+h4{font-size:13px;margin:20px 0 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+h5{font-size:16px;margin:16px 0 4px}
+a{color:var(--link)} li{margin:6px 0} em{color:var(--muted);font-style:normal;font-size:13px}
+code{font-family:Consolas, 'Courier New', monospace;font-size:.92em;background:var(--bg);padding:1px 5px;border-radius:4px}
+table{border-collapse:collapse} td,th{border:1px solid var(--line);padding:5px 9px;vertical-align:top}
+.meta{color:var(--muted);font-size:13px}
+.chips span{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:12px;padding:1px 10px;margin:8px 6px 0 0}
+.button{display:inline-block;background:var(--button-bg);color:var(--button-ink);text-decoration:none;font-weight:700;font-size:14px;padding:8px 16px;border-radius:6px}
+details summary{cursor:pointer}
+footer{color:var(--muted);font-size:12px;margin-top:32px;border-top:1px solid var(--line);padding-top:12px}
+</style></head><body><div class="topbar"></div><div class="wrap"><a class="brand" href="../../index.html">Oracle Update Advisory</a><nav><a href="../index.html">SCM</a> › Manufacturing</nav><div class="card"><h1>SCM · Manufacturing: Release digest</h1>
+<p><strong>Covers:</strong> Manufacturing 26D<br />
+<strong>Oracle updated:</strong> 13 Oct 2026 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>In the 26D release for Manufacturing, several modules have been enhanced with new capabilities aimed at improving operational efficiency and compliance. Key features include the ability to enable intra-organizational material transfers in Supply Chain Orchestration, new quality inspection management tools, and enhanced production campaign execution in Discrete Manufacturing. Customers are required to complete pre-update tasks and can opt into various new features to maximize their benefits. Additionally, the classic Manage Work Orders page has been deprecated in favor of the new Redwood Work Orders page, necessitating a review of profile options and privileges for access.</p>
+<h2>What's New</h2>
+<ul>
+<li>Supply Chain Orchestration enables intra-organizational material transfers for supply requests from Self Service Procurement, improving fulfillment flexibility and inventory utilization. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-f50332.htm">Enable intra-organizational material transfers for transfer supply requests originating from Self Service Procurement</a>)</li>
+<li>Quality Management now allows organizations to define customer inspection plans and compare inspection results against these plans, enhancing product quality management. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-f50529.htm">Define customer inspection plans and compare inspection results</a>)</li>
+<li>Manufacturers can define and execute parallel operations on discrete production lines, improving operational efficiency and reducing lead times. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-f50434.htm">Define and execute parallel operations on discrete production lines</a>)</li>
+<li>The Quality Assurance Workspace provides quality teams with tools to analyze inspection results and identify at-risk characteristics, enhancing decision-making. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-f50528.htm">Quality Assurance Workspace</a>)</li>
+<li>Operators can now capture measurements directly from connected equipment when dispensing materials, improving accuracy and efficiency in production. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-f50423.htm">Record dispensed material quantities using connected equipment</a>)</li>
+<li>Takt-time based scheduling for discrete production lines is now available, allowing for more efficient scheduling of production operations. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-f50442.htm">Use Takt-Time based scheduling for discrete production lines</a>)</li>
+<li>Users can now create and manage dispensing instructions that operators must acknowledge before dispensing materials, improving compliance and accuracy. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-f50415.htm">Create dispensing instructions and enforce operator compliance</a>)</li>
+<li>A new guided process for defining plant parameters simplifies setup and maintenance, improving accuracy in parameter definitions. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-f51079.htm">Define plant parameters using a new user experience</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>The ability to cancel work orders with transactions is now restricted unless a new privilege is granted, affecting users with previously unrestricted cancellation rights. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-f50427.htm">Restrict cancellations for work orders with material, resource, or operation transactions</a>)</li>
+<li>Modifications to operation child entity attributes in approved work definitions can now be made without manual duplication of operations, streamlining updates. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-f50412.htm">Review redlined changes in electronic signature enabled work definitions</a>)</li>
+</ul>
+<h2>Deprecations, Retirements and Replacements</h2>
+<ul>
+<li>The classic Manage Work Orders page is deprecated and replaced by the Redwood Work Orders (New) page as of update 26C. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-t78336.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Manufacturing: The ability to cancel work orders with transactions is now restricted unless the new privilege is granted, which may affect users who previously had unrestricted cancellation rights. This change is effective immediately with the introduction of the new plant parameter. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-f50427.htm">Restrict cancellations for work orders with material, resource, or operation transactions</a>)</li>
+</ul>
+<h2>Action Required</h2>
+<ul>
+<li>Customers must perform pre-update and post-update tasks as part of their quarterly update process, referring to the Oracle Fusion Cloud SCM documentation for specific steps. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-t78589.htm">Pre-Update and Post-Update Tasks</a>)</li>
+<li>Review and opt into new features delivered in this release, which may be enabled or disabled by default, following specific steps using provided privileges. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-t78604.htm">Optional Uptake of New Features (Opt In)</a>)</li>
+<li>Check for Redwood pages that may be enabled by default in this update and review the associated profile options and privileges required for access. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/mfg26d/26D-mfg-wn-t78336.htm">IMPORTANT Actions and Considerations</a>)</li>
+</ul></div></div></body></html>

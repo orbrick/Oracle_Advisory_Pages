@@ -1,0 +1,51 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>EPM · Enterprise Data Management · 26_10</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><style>
+:root{--bg:#f6f5f8;--card:#ffffff;--ink:#1f1d24;--muted:#5f5a6b;--line:#e6e3ec;--accent:#5B2A86;--link:#5B2A86;--rule:#f08519;--badge-bg:#fdf0e3;--badge-ink:#7a3f00;--button-bg:#5B2A86;--button-ink:#ffffff}
+@media (prefers-color-scheme: dark){:root{--bg:#14111a;--card:#1d1925;--ink:#ece9f1;--muted:#a59fb2;--line:#2f2a3a;--accent:#b590e0;--link:#c9aaf0;--rule:#f5a54f;--badge-bg:#3a2a14;--badge-ink:#f5c58d;--button-bg:#b590e0;--button-ink:#14111a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'PT Sans', 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.6}
+.topbar{height:4px;background:var(--rule)}
+.wrap{max-width:900px;margin:0 auto;padding:22px 16px 56px}
+nav{font-size:13px;color:var(--muted);margin-bottom:14px} nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--link);text-decoration:underline}
+.brand{display:inline-block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;text-decoration:none;margin-bottom:6px} a.brand:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px 28px;margin-bottom:16px}
+h1{font-size:26px;line-height:1.25;margin:4px 0 10px}
+h2{font-size:20px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--rule);margin-right:10px;vertical-align:1px}
+h3{font-size:18px;margin:0 0 6px;color:var(--accent)} h3 a{color:var(--accent);text-decoration:none}
+h4{font-size:13px;margin:20px 0 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+h5{font-size:16px;margin:16px 0 4px}
+a{color:var(--link)} li{margin:6px 0} em{color:var(--muted);font-style:normal;font-size:13px}
+code{font-family:Consolas, 'Courier New', monospace;font-size:.92em;background:var(--bg);padding:1px 5px;border-radius:4px}
+table{border-collapse:collapse} td,th{border:1px solid var(--line);padding:5px 9px;vertical-align:top}
+.meta{color:var(--muted);font-size:13px}
+.chips span{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:12px;padding:1px 10px;margin:8px 6px 0 0}
+.button{display:inline-block;background:var(--button-bg);color:var(--button-ink);text-decoration:none;font-weight:700;font-size:14px;padding:8px 16px;border-radius:6px}
+details summary{cursor:pointer}
+footer{color:var(--muted);font-size:12px;margin-top:32px;border-top:1px solid var(--line);padding-top:12px}
+</style></head><body><div class="topbar"></div><div class="wrap"><a class="brand" href="../../index.html">Oracle Update Advisory</a><nav><a href="../index.html">EPM</a> › Enterprise Data Management</nav><div class="card"><h1>EPM · Enterprise Data Management: Release digest</h1>
+<p><strong>Covers:</strong> Enterprise Data Management 26.10<br />
+<strong>Oracle updated:</strong> 23 Sep 2026 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>The 26.10 release of Enterprise Data Management brings several important updates, including a new chapter on AI in business process guides and enhanced security features for user access control. The introduction of the <code>listUsers</code> command in EPM Automate allows for better user management, while support for JDK 21 is now required for EPM Automate on Linux/Unix systems, with JDK 17 being deprecated in January 2027. Additionally, generative AI features will necessitate an upgrade to Cloud EPM 26.08 or later by January 2027, and EPM Automate clients earlier than version 26.09 will not function with environments 26.12 and later, requiring timely upgrades.</p>
+<h2>What's New</h2>
+<ul>
+<li>Enterprise Data Management adds a new chapter titled 'Working with AI' to business process guides, detailing AI features and usage documentation. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/edm-oct26/26oct-edmcs-wn-f51680.htm">New "Working with AI" Chapter</a>)</li>
+<li>A new <code>listUsers</code> command and corresponding REST API are introduced in EPM Automate, allowing for the creation of a JSON report listing users and their roles. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/edm-oct26/26oct-edmcs-wn-f51682.htm">New listUsers EPM Automate Command and REST API</a>)</li>
+<li>The Export to CSV option in Access Control now supports exporting all group types, including EPM, IDCS, and PREDEFINED groups, enhancing security reviews. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/edm-oct26/26oct-edmcs-wn-f51805.htm">Support of All Group Types in Exported Group Listing in Access Control</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>The <code>copyToSFTP</code> and <code>copyFromSFTP</code> commands in EPM Automate now support an uploaded private key file when invoked from Groovy scripts, improving security. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/edm-oct26/26oct-edmcs-wn-f51808.htm">Support for Uploaded Private Key in copyToSFTP and copyFromSFTP Commands Invoked From Groovy Scripts</a>)</li>
+</ul>
+<h2>Deprecations, Retirements and Replacements</h2>
+<ul>
+<li>Support for JDK 17 will be deprecated in January 2027, requiring an upgrade to JDK 21 for EPM Automate on Linux/Unix systems. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/edm-oct26/26oct-edmcs-wn-f51807.htm">Java 21 support for EPM Automate on Linux/Unix</a>)</li>
+<li>Support for user names prefixed with the Cloud Account name will be removed in November 2027. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/edm-oct26/26oct-edmcs-wn-t79302.htm">IMPORTANT Actions and Considerations</a>)</li>
+</ul>
+<h2>Action Required</h2>
+<ul>
+<li>Upgrade EPM Automate to version 26.09 or later to ensure compatibility with environments 26.12 and later. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/edm-oct26/26oct-edmcs-wn-t79302.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Run the EPM Automate encrypt command to generate a new.epw file after upgrading. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/edm-oct26/26oct-edmcs-wn-t79302.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Upgrade JDK to version 21 on Linux/Unix systems to comply with the new requirements for EPM Automate. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/epm/2026/edm-oct26/26oct-edmcs-wn-f51807.htm">Java 21 support for EPM Automate on Linux/Unix</a>)</li>
+</ul></div></div></body></html>

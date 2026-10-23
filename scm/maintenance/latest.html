@@ -1,0 +1,58 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>SCM · Maintenance · 26D</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><style>
+:root{--bg:#f6f5f8;--card:#ffffff;--ink:#1f1d24;--muted:#5f5a6b;--line:#e6e3ec;--accent:#5B2A86;--link:#5B2A86;--rule:#f08519;--badge-bg:#fdf0e3;--badge-ink:#7a3f00;--button-bg:#5B2A86;--button-ink:#ffffff}
+@media (prefers-color-scheme: dark){:root{--bg:#14111a;--card:#1d1925;--ink:#ece9f1;--muted:#a59fb2;--line:#2f2a3a;--accent:#b590e0;--link:#c9aaf0;--rule:#f5a54f;--badge-bg:#3a2a14;--badge-ink:#f5c58d;--button-bg:#b590e0;--button-ink:#14111a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'PT Sans', 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.6}
+.topbar{height:4px;background:var(--rule)}
+.wrap{max-width:900px;margin:0 auto;padding:22px 16px 56px}
+nav{font-size:13px;color:var(--muted);margin-bottom:14px} nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--link);text-decoration:underline}
+.brand{display:inline-block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;text-decoration:none;margin-bottom:6px} a.brand:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px 28px;margin-bottom:16px}
+h1{font-size:26px;line-height:1.25;margin:4px 0 10px}
+h2{font-size:20px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--rule);margin-right:10px;vertical-align:1px}
+h3{font-size:18px;margin:0 0 6px;color:var(--accent)} h3 a{color:var(--accent);text-decoration:none}
+h4{font-size:13px;margin:20px 0 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+h5{font-size:16px;margin:16px 0 4px}
+a{color:var(--link)} li{margin:6px 0} em{color:var(--muted);font-style:normal;font-size:13px}
+code{font-family:Consolas, 'Courier New', monospace;font-size:.92em;background:var(--bg);padding:1px 5px;border-radius:4px}
+table{border-collapse:collapse} td,th{border:1px solid var(--line);padding:5px 9px;vertical-align:top}
+.meta{color:var(--muted);font-size:13px}
+.chips span{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:12px;padding:1px 10px;margin:8px 6px 0 0}
+.button{display:inline-block;background:var(--button-bg);color:var(--button-ink);text-decoration:none;font-weight:700;font-size:14px;padding:8px 16px;border-radius:6px}
+details summary{cursor:pointer}
+footer{color:var(--muted);font-size:12px;margin-top:32px;border-top:1px solid var(--line);padding-top:12px}
+</style></head><body><div class="topbar"></div><div class="wrap"><a class="brand" href="../../index.html">Oracle Update Advisory</a><nav><a href="../index.html">SCM</a> › Maintenance</nav><div class="card"><h1>SCM · Maintenance: Release digest</h1>
+<p><strong>Covers:</strong> Maintenance 26D<br />
+<strong>Oracle updated:</strong> 1 Sep 2026 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>The 26D release for the Maintenance module brings significant enhancements designed to improve efficiency and user experience. Key features include the ability to associate technicians with multiple labor resources, which allows for better assignment based on skills, and the introduction of mass actions in Maintenance Supervision for managing multiple work orders. Additionally, users can now add parts from an asset's parts list directly to work orders, configure additional fields for asset details, and utilize new functionalities in Redwood pages for asset management. Customers are required to perform pre-update and post-update tasks and can opt in to new features that are delivered disabled. This release emphasizes improved operational workflows and data management capabilities.</p>
+<h2>What's New</h2>
+<ul>
+<li>Technicians can now be associated with multiple labor resources, enhancing work assignment and tracking based on skills. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f46400.htm">Associate a technician to multiple labor resources</a>)</li>
+<li>Users can add multiple parts from an asset's parts list to work orders in Maintenance Supervision, improving efficiency. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f51004.htm">Add parts from asset parts list to work orders in Maintenance Supervision</a>)</li>
+<li>Organizations can configure additional fields for asset details using Oracle Applications Composer and Visual Builder Studio. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f50746.htm">Configure additional fields for asset details</a>)</li>
+<li>Maintenance supervisors can manage multiple work orders using mass actions, allowing for bulk updates and improved efficiency. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f51008.htm">Manage multiple work orders using mass actions in Maintenance Supervision</a>)</li>
+<li>Users can access related items directly from the new Redwood Asset Details page, enhancing maintenance efficiency. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f50745.htm">Perform additional actions in the new Redwood Asset Details page</a>)</li>
+<li>The Redwood Asset Hierarchy page now allows users to access asset details directly from the hierarchy view, improving navigation. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f51009.htm">Perform additional actions in the new Redwood Asset Hierarchy page</a>)</li>
+<li>Business rules have been enhanced to support automatic asset number generation and validation of meter readings on the Redwood Asset Details page. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f51005.htm">Use business rules and guided journey enhancements to configure Redwood pages</a>)</li>
+<li>Service Logistics now supports capturing quality events for returns and field service debrief, allowing users to record inspection results. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f50143.htm">Capture quality events for returns and field service debrief</a>)</li>
+<li>The Parts Search feature now automatically includes substitutions and supersessions when searching for parts, streamlining the process. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f50141.htm">Include substitutions and supersessions in automatic parts search</a>)</li>
+<li>Parts Search now incorporates distance into search results, optimizing part delivery based on stocking locations. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f50142.htm">Incorporate distance into parts search</a>)</li>
+<li>Users can receive eligible purchase order lines from the Receive Parts page, supporting various item control types. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f50144.htm">Receive purchase orders in field service Receive Part UI</a>)</li>
+<li>Service Logistics now supports credit card payments for part orders, enhancing payment flexibility for customers. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f50140.htm">Support credit card payment method for parts orders</a>)</li>
+<li>The Parts Search program now supports supply chain transit times to destination inventory locations, improving sourcing rules. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f50145.htm">Support destination warehouses in parts search</a>)</li>
+<li>A new user experience for setting up project-driven supply chain defaults has been introduced, simplifying configuration. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f51078.htm">Setup project-driven supply chain defaults using a new user experience</a>)</li>
+<li>A guided process for defining plant parameters has been introduced, simplifying the definition and maintenance of parameters. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f51079.htm">Define plant parameters using a new user experience</a>)</li>
+<li>Users can create custom SQL queries against the Read-Optimized Data Store, enhancing data extraction capabilities. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-f51077.htm">Support for user-defined queries in data extracts</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<p>None identified in this release.</p>
+<h2>Deprecations, Retirements and Replacements</h2>
+<p>None identified in this release.</p>
+<h2>Action Required</h2>
+<ul>
+<li>Customers must perform pre-update and post-update tasks as required by their Cloud applications. Refer to the Oracle Fusion Cloud SCM documentation for specific steps. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-t78588.htm">Pre-Update and Post-Update Tasks</a>)</li>
+<li>Customers can opt in to new features delivered disabled in this release by using specific privileges through the New Features work area or Offerings page. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/scm/26d/maint26d/26D-maintenance-wn-t78603.htm">Optional Uptake of New Features (Opt In)</a>)</li>
+</ul></div></div></body></html>

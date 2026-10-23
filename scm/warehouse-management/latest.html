@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>SCM · Warehouse Management · 26D</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><style>
+:root{--bg:#f6f5f8;--card:#ffffff;--ink:#1f1d24;--muted:#5f5a6b;--line:#e6e3ec;--accent:#5B2A86;--link:#5B2A86;--rule:#f08519;--badge-bg:#fdf0e3;--badge-ink:#7a3f00;--button-bg:#5B2A86;--button-ink:#ffffff}
+@media (prefers-color-scheme: dark){:root{--bg:#14111a;--card:#1d1925;--ink:#ece9f1;--muted:#a59fb2;--line:#2f2a3a;--accent:#b590e0;--link:#c9aaf0;--rule:#f5a54f;--badge-bg:#3a2a14;--badge-ink:#f5c58d;--button-bg:#b590e0;--button-ink:#14111a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'PT Sans', 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.6}
+.topbar{height:4px;background:var(--rule)}
+.wrap{max-width:900px;margin:0 auto;padding:22px 16px 56px}
+nav{font-size:13px;color:var(--muted);margin-bottom:14px} nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--link);text-decoration:underline}
+.brand{display:inline-block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;text-decoration:none;margin-bottom:6px} a.brand:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px 28px;margin-bottom:16px}
+h1{font-size:26px;line-height:1.25;margin:4px 0 10px}
+h2{font-size:20px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--rule);margin-right:10px;vertical-align:1px}
+h3{font-size:18px;margin:0 0 6px;color:var(--accent)} h3 a{color:var(--accent);text-decoration:none}
+h4{font-size:13px;margin:20px 0 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+h5{font-size:16px;margin:16px 0 4px}
+a{color:var(--link)} li{margin:6px 0} em{color:var(--muted);font-style:normal;font-size:13px}
+code{font-family:Consolas, 'Courier New', monospace;font-size:.92em;background:var(--bg);padding:1px 5px;border-radius:4px}
+table{border-collapse:collapse} td,th{border:1px solid var(--line);padding:5px 9px;vertical-align:top}
+.meta{color:var(--muted);font-size:13px}
+.chips span{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:12px;padding:1px 10px;margin:8px 6px 0 0}
+.button{display:inline-block;background:var(--button-bg);color:var(--button-ink);text-decoration:none;font-weight:700;font-size:14px;padding:8px 16px;border-radius:6px}
+details summary{cursor:pointer}
+footer{color:var(--muted);font-size:12px;margin-top:32px;border-top:1px solid var(--line);padding-top:12px}
+</style></head><body><div class="topbar"></div><div class="wrap"><a class="brand" href="../../index.html">Oracle Update Advisory</a><nav><a href="../index.html">SCM</a> › Warehouse Management</nav><div class="card"><h1>SCM · Warehouse Management: Release digest</h1>
+<p><strong>Covers:</strong> Warehouse Management 26D<br />
+<strong>Oracle updated:</strong> 30 Sep 2026 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>The 26D release of Warehouse Management brings a host of new features and enhancements aimed at improving usability and operational efficiency. Key highlights include the introduction of a 3D warehouse inventory visualizer, expanded Redwood Desktop capabilities, and enhanced reporting features that provide better visibility into operations. Additionally, clients must transition from SOAP to REST API integrations for FedEx and UPS, and migrate from.xls to.xlsx formats for input interfaces. These changes are crucial for maintaining compatibility and leveraging new functionalities effectively.</p>
+<h2>What's New</h2>
+<ul>
+<li>The Warehouse Visual Layout feature provides an interactive 2D and 3D visual representation of the warehouse layout, enhancing decision-making regarding location capacity and utilization. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-f51659.htm">3D warehouse inventory visualizer</a>)</li>
+<li>The Redwood experience has been expanded to include new screens such as Clock View and Dashboard View Gen 2, improving usability and navigation within the WMS Redwood Desktop. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-f51342.htm">Expanded Redwood experience for desktop</a>)</li>
+<li>A new report execution audit dataset enhances visibility into Web Report usage, capturing details such as who ran reports and their execution status. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-f51806.htm">Web Report usage visibility</a>)</li>
+<li>Label Designer V2 introduces a modern web-based label authoring experience, allowing faster creation and maintenance of production-ready labels with dynamic content creation. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-f51345.htm">Next Gen Label Designer</a>)</li>
+<li>The Warehouse Execution Command Center is introduced as an AI-powered operational workspace for warehouse supervisors, focusing on outbound transactions and providing insights into at-risk orders and picking bottlenecks. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-f51823.htm">AI Agentic App: Warehouse Execution Command Center</a>)</li>
+<li>A new prebuilt integration for inventory reconciliation using file-based processing allows WMS to fetch ERP on-hand and serial number information for serial-tracked items. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-f51824.htm">New prebuilt integration for inventory reconciliation using file-based processing</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>The Mobile Load OBLPN transaction now honors the facility parameter ASSIGN_NEWLOAD_AT_CLOSE, preventing users from closing a load if assigned OBLPNs are not loaded. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-f51826.htm">Expand mobile Load LPN transaction to honor load related facility parameters</a>)</li>
+<li>Administrators can now control access to the 'Launch Mobile App' link in the Desktop UI, promoting the use of approved handheld devices by restricting access for specific user groups. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-f51834.htm">Restrict launch mobile app access from desktop</a>)</li>
+</ul>
+<h2>Deprecations, Retirements and Replacements</h2>
+<ul>
+<li>SSH-based RF will be deprecated starting January 2026, replaced by Redwood Mobile WMS. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-t79379.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Support for.xls format will be deprecated in 26D; clients must switch to.xlsx format for input interfaces. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-t79379.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Warehouse Management: Legacy Designer planned for deprecation in a future release. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-f51345.htm">Next Gen Label Designer</a>)</li>
+</ul>
+<h2>Action Required</h2>
+<ul>
+<li>Migrate to REST-based carrier integrations for FedEx and UPS to ensure continued functionality. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-t79379.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Follow instructions to migrate attachments to OCI Object Store to comply with new storage requirements. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-t79379.htm">IMPORTANT Actions and Considerations</a>)</li>
+<li>Switch from.xls to.xlsx format for input interfaces to avoid disruptions after the deprecation of.xls support in 26D. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26d/wms26d/26D-wms-wn-t79379.htm">IMPORTANT Actions and Considerations</a>)</li>
+</ul></div></div></body></html>

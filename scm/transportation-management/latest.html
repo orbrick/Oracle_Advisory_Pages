@@ -1,0 +1,62 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>SCM · Transportation Management · 26C</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><style>
+:root{--bg:#f6f5f8;--card:#ffffff;--ink:#1f1d24;--muted:#5f5a6b;--line:#e6e3ec;--accent:#5B2A86;--link:#5B2A86;--rule:#f08519;--badge-bg:#fdf0e3;--badge-ink:#7a3f00;--button-bg:#5B2A86;--button-ink:#ffffff}
+@media (prefers-color-scheme: dark){:root{--bg:#14111a;--card:#1d1925;--ink:#ece9f1;--muted:#a59fb2;--line:#2f2a3a;--accent:#b590e0;--link:#c9aaf0;--rule:#f5a54f;--badge-bg:#3a2a14;--badge-ink:#f5c58d;--button-bg:#b590e0;--button-ink:#14111a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'PT Sans', 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.6}
+.topbar{height:4px;background:var(--rule)}
+.wrap{max-width:900px;margin:0 auto;padding:22px 16px 56px}
+nav{font-size:13px;color:var(--muted);margin-bottom:14px} nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--link);text-decoration:underline}
+.brand{display:inline-block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;text-decoration:none;margin-bottom:6px} a.brand:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px 28px;margin-bottom:16px}
+h1{font-size:26px;line-height:1.25;margin:4px 0 10px}
+h2{font-size:20px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--rule);margin-right:10px;vertical-align:1px}
+h3{font-size:18px;margin:0 0 6px;color:var(--accent)} h3 a{color:var(--accent);text-decoration:none}
+h4{font-size:13px;margin:20px 0 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+h5{font-size:16px;margin:16px 0 4px}
+a{color:var(--link)} li{margin:6px 0} em{color:var(--muted);font-style:normal;font-size:13px}
+code{font-family:Consolas, 'Courier New', monospace;font-size:.92em;background:var(--bg);padding:1px 5px;border-radius:4px}
+table{border-collapse:collapse} td,th{border:1px solid var(--line);padding:5px 9px;vertical-align:top}
+.meta{color:var(--muted);font-size:13px}
+.chips span{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:12px;padding:1px 10px;margin:8px 6px 0 0}
+.button{display:inline-block;background:var(--button-bg);color:var(--button-ink);text-decoration:none;font-weight:700;font-size:14px;padding:8px 16px;border-radius:6px}
+details summary{cursor:pointer}
+footer{color:var(--muted);font-size:12px;margin-top:32px;border-top:1px solid var(--line);padding-top:12px}
+</style></head><body><div class="topbar"></div><div class="wrap"><a class="brand" href="../../index.html">Oracle Update Advisory</a><nav><a href="../index.html">SCM</a> › Transportation Management</nav><div class="card"><h1>SCM · Transportation Management: Release digest</h1>
+<p><strong>Covers:</strong> Transportation Management 26C<br />
+<strong>Oracle updated:</strong> 3 Aug 2026 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>The 26C release of Transportation Management brings a host of new features and enhancements aimed at improving user experience and operational efficiency. Key highlights include the introduction of AI capabilities such as the Dock Scheduling Assistant and Shipment Change Assistant, which leverage natural language processing to simplify dock scheduling and shipment management. The Redwood user interface has been expanded with additional features, enhancing usability across the platform. Customers should note the deprecation of Basic Auth for BI Publisher SOAP Web Services, requiring a transition to OAuth-based authentication for improved security. Overall, this release emphasizes automation, usability, and integration capabilities across the Transportation Management module.</p>
+<h2>What's New</h2>
+<ul>
+<li>AI Agent Studio now includes thirty pre-seeded OTM/GTM business objects, facilitating easier AI agent development. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f49755.htm">AI Agent Studio - Seeded Business Objects</a>)</li>
+<li>A new slash command feature allows users to quickly insert reusable AI prompt templates in the chat input box, enhancing efficiency. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f49756.htm">Slash Command for Prompt Selection</a>)</li>
+<li>The Redwood user interface has been extended to include additional UIs and features, improving usability and efficiency. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f47313.htm">Try the New Redwood Experience</a>)</li>
+<li>The Enhanced Workbench now always displays the External ID (XID) in Inline Edit, simplifying the editing process. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f49641.htm">Inline Edit Always Shows External ID (XID)</a>)</li>
+<li>A new logic configuration parameter allows updates in Workbench detail tables to be processed as a single transaction, reducing duplicate notifications. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f49891.htm">Single Transaction Option for Workbench Inline Editing and Mass Updates</a>)</li>
+<li>The Honor Update Flag For REST RefNum Updates feature aligns REST services with XML APIs regarding how the Update Flag is handled for reference numbers. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f43369.htm">Honor Update Flag For REST RefNum Updates</a>)</li>
+<li>The Enable Req Att Validation For REST API feature validates JSON payloads for POST requests to ensure required attributes are included for creating objects. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f46278.htm">Enable Req Att Validation For REST API</a>)</li>
+<li>A new REST API Custom Action allows linking a single document to multiple business objects in one action, streamlining document management. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f43363.htm">REST API Custom Action to Add/Link a Document to Multiple Objects</a>)</li>
+<li>The Multi-Day Calendar Override feature allows users to define both start and end dates for calendar override entries, applicable across operational areas. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f46348.htm">Multi-Day Calendar Overrides</a>)</li>
+<li>New Shipment Group tender agent actions have been added to automate the Shipment Group tender workflow, enhancing operational efficiency. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f49507.htm">Automation Agent Actions - Shipment Group Tender</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<ul>
+<li>The Order Routing Rule functionality now includes Itinerary ID and Routing Constraint ID in the Order Routing Rule Detail screen, improving routing decisions. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f46451.htm">Preferred Routing - Order Routing Rule</a>)</li>
+<li>The Rate Shopping feature now provides visibility to the Rate Service in external rate shopping setups, ensuring recalculated shipment costs reflect the originally selected service provider. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f46452.htm">Rate Shopping - Rate Service Visibility - Change Service Provider</a>)</li>
+</ul>
+<h2>Deprecations, Retirements and Replacements</h2>
+<ul>
+<li>Basic Auth for BI Publisher SOAP Web Service is deprecated, requiring the use of OAuth-based authentication instead. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f47435.htm">Deprecate Basic Auth for BIP SOAP Web Service</a>)</li>
+<li>Transportation Management: The Logic Configuration Parameter SHOW XID IN INLINE EDIT is no longer considered and will be removed in a future release. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f49641.htm">Inline Edit Always Shows External ID (XID)</a>)</li>
+<li>Transportation Management: This feature replaces the property glog.business.shipmentactual.syncWithOrderOnCountIncrease. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f47438.htm">SMD Sync With Order On SSU Count Increase</a>)</li>
+</ul>
+<h2>Action Required</h2>
+<ul>
+<li>Users must opt in to the Use Improved Split Order Movement Action feature through the Optional Feature UI to take advantage of the improved logic. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f46318.htm">Use Improved Split Order Movement Action</a>)</li>
+<li>Users must opt in to the Suppress Error When No REST RIQ Results Found feature through the Optional Feature UI to utilize it. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f47439.htm">Suppress Error When No REST RIQ Results Found</a>)</li>
+<li>Users must opt in to the Fetch All Shipment Tracking Events feature through the Optional Feature UI to utilize it. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f47436.htm">Fetch All Shipment Tracking Events</a>)</li>
+<li>Users must opt in to the SMD Sync With Order On SSU Count Increase feature through the Optional Feature UI to utilize it. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f47438.htm">SMD Sync With Order On SSU Count Increase</a>)</li>
+<li>Users must enable the Optional Feature 'Use 3D Load Config for Ground Schedule and Consol' to utilize 3D load configuration for Ground Schedule and consol shipments. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/logistics/26c/otm26c/26C-otm-wn-f47442.htm">Use 3D Load Config for Ground Schedule and Consol</a>)</li>
+</ul></div></div></body></html>
