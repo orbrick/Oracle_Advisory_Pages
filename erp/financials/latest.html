@@ -1,0 +1,55 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex, nofollow"><title>ERP · Financials · 26D</title><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet"><style>
+:root{--bg:#f6f5f8;--card:#ffffff;--ink:#1f1d24;--muted:#5f5a6b;--line:#e6e3ec;--accent:#5B2A86;--link:#5B2A86;--rule:#f08519;--badge-bg:#fdf0e3;--badge-ink:#7a3f00;--button-bg:#5B2A86;--button-ink:#ffffff}
+@media (prefers-color-scheme: dark){:root{--bg:#14111a;--card:#1d1925;--ink:#ece9f1;--muted:#a59fb2;--line:#2f2a3a;--accent:#b590e0;--link:#c9aaf0;--rule:#f5a54f;--badge-bg:#3a2a14;--badge-ink:#f5c58d;--button-bg:#b590e0;--button-ink:#14111a}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:'PT Sans', 'Segoe UI', Arial, sans-serif;font-size:16px;line-height:1.6}
+.topbar{height:4px;background:var(--rule)}
+.wrap{max-width:900px;margin:0 auto;padding:22px 16px 56px}
+nav{font-size:13px;color:var(--muted);margin-bottom:14px} nav a{color:var(--muted);text-decoration:none}
+nav a:hover{color:var(--link);text-decoration:underline}
+.brand{display:inline-block;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700;text-decoration:none;margin-bottom:6px} a.brand:hover{text-decoration:underline}
+.card{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:24px 28px;margin-bottom:16px}
+h1{font-size:26px;line-height:1.25;margin:4px 0 10px}
+h2{font-size:20px;margin:28px 0 10px;padding-bottom:6px;border-bottom:1px solid var(--line)}
+h2::before{content:"";display:inline-block;width:10px;height:10px;border-radius:2px;background:var(--rule);margin-right:10px;vertical-align:1px}
+h3{font-size:18px;margin:0 0 6px;color:var(--accent)} h3 a{color:var(--accent);text-decoration:none}
+h4{font-size:13px;margin:20px 0 6px;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+h5{font-size:16px;margin:16px 0 4px}
+a{color:var(--link)} li{margin:6px 0} em{color:var(--muted);font-style:normal;font-size:13px}
+code{font-family:Consolas, 'Courier New', monospace;font-size:.92em;background:var(--bg);padding:1px 5px;border-radius:4px}
+table{border-collapse:collapse} td,th{border:1px solid var(--line);padding:5px 9px;vertical-align:top}
+.meta{color:var(--muted);font-size:13px}
+.chips span{display:inline-block;font-size:12px;color:var(--muted);border:1px solid var(--line);border-radius:12px;padding:1px 10px;margin:8px 6px 0 0}
+.button{display:inline-block;background:var(--button-bg);color:var(--button-ink);text-decoration:none;font-weight:700;font-size:14px;padding:8px 16px;border-radius:6px}
+details summary{cursor:pointer}
+footer{color:var(--muted);font-size:12px;margin-top:32px;border-top:1px solid var(--line);padding-top:12px}
+</style></head><body><div class="topbar"></div><div class="wrap"><a class="brand" href="../../index.html">Oracle Update Advisory</a><nav><a href="../index.html">ERP</a> › Financials</nav><div class="card"><h1>ERP · Financials: Release digest</h1>
+<p><strong>Covers:</strong> Accounting Hub 26A, Financials 26D, Self Service Financials 26D<br />
+<strong>Oracle updated:</strong> 19 Oct 2026 · Source: Oracle Cloud Readiness</p>
+<h2>Executive Summary</h2>
+<p>This release of Financials, covering modules such as Accounting Hub, Financials, and Self Service Financials, brings a wealth of new capabilities aimed at enhancing usability and operational efficiency. Key highlights include the Advanced Event Model Configuration in Accounting Hub, which allows for better transaction organization, and various enhancements in the Expenses Agent for improved expense reporting. Customers are required to opt in to new features to enable them, ensuring they can leverage the latest functionalities effectively. Additionally, several usability improvements have been made to streamline processes and enhance user experience.</p>
+<h2>What's New</h2>
+<ul>
+<li>Accounting Hub introduces Advanced Event Model Configuration, enabling users to define multiple event classes and process categories within a single application, enhancing transaction organization and journal categorization. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26a/ah26a/26A-accounting-hub-wn-f42085.htm">Advanced Event Model Configuration in Accounting Hub</a>)</li>
+<li>The Financials module now allows the system to derive the pay site for GHX inbound invoices using B2B Account Number setup in Collaboration Messaging, streamlining invoice processing. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-f50501.htm">Derive supplier site from invoice account numbers</a>)</li>
+<li>Organizations in Brazil can now electronically receive additional fiscal documents, including NFS-e, NFCom, and NF3-e, through Oracle Collaboration Messaging, simplifying compliance. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-f50499.htm">Receive Brazil electronic fiscal invoices for services and utilities</a>)</li>
+<li>The Ledger Agentic Application introduces a governed runtime execution layer, enhancing accounting operations by enabling autonomous execution of delegated tasks. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-f51915.htm">Ledger Agentic Application</a>)</li>
+<li>The Payables Period Close Workspace centralizes the Payables close process, allowing teams to manage exceptions and prioritize actions effectively. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-f51249.htm">Payables Period Close Workspace</a>)</li>
+<li>The Cash Processing Agent now supports bank statement reconciliation with a conversational interface, improving visibility into unreconciled transactions and exceptions. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-f51246.htm">Cash Processing Agent for bank statement reconciliation</a>)</li>
+<li>The Expenses Agent now supports itemization and attendee management for expense reporting, streamlining submissions and ensuring compliance with company policies. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/ssfin26d/26D-ssfin-wn-f50632.htm">Expenses Agent for itemization and attendees</a>)</li>
+<li>The Budget Adjustment Assistant validates budget transfers against policies and routes adjustments for approval, enhancing accountability in budget management. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-f51221.htm">Budget Adjustment Assistant with policy and approvals</a>)</li>
+<li>The Tax Point Date Adjustment process identifies invoices with mismatched dates for compliance with Poland's KSeF system, improving VAT reporting accuracy. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-f50921.htm">Tax point date adjustment for Polish e-Invoice compliance</a>)</li>
+<li>The new Redwood Supplier Portal experience enhances supplier navigation and invoice entry, replacing classic pages with a more user-friendly interface. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-f50881.htm">Redwood Supplier Portal Invoice Submission and Status Tracking</a>)</li>
+</ul>
+<h2>What's Changed</h2>
+<p>None identified in this release.</p>
+<h2>Deprecations, Retirements and Replacements</h2>
+<ul>
+<li>Classic View Invoices, View Payments, Create Invoice, and Create Invoice without PO entry points are no longer available after enabling the Redwood experience. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-f50881.htm">Redwood Supplier Portal Invoice Submission and Status Tracking</a>)</li>
+</ul>
+<h2>Action Required</h2>
+<ul>
+<li>Customers must opt in to new features delivered disabled in Oracle Cloud Applications by navigating to the New Features work area and selecting desired features to enable. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26a/ah26a/26A-accounting-hub-wn-t71601.htm">Optional Uptake of New Features (Opt In)</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-t78612.htm">Optional Uptake of New Features (Opt In)</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/ssfin26d/26D-ssfin-wn-t78599.htm">Optional Uptake of New Features (Opt In)</a>)</li>
+<li>For the Budget Adjustment Assistant, customers should log a Service Request to enable this feature and contact Oracle Support for access. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-f51221.htm">Budget Adjustment Assistant with policy and approvals</a>)</li>
+<li>Users must set up required security roles and privileges to access new assistants and features introduced in this release, such as the Reversal and Rebilling Assistant and the Partner Contribution Replenishment Assistant. (<a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-f50477.htm">Reversal and Rebilling Assistant</a>; <a href="https://docs.oracle.com/en/cloud/saas/readiness/erp/26d/fins26d/26D-fin-wn-f50781.htm">Partner Contribution Replenishment Assistant</a>)</li>
+</ul></div></div></body></html>
